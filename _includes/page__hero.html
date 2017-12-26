@@ -36,7 +36,7 @@
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper" style="max-width: 1280px;">
       {% if page.header.logo_background %}
-         <img src={{ page.header.logo_background }} class="img-responsive center-block" style="max-height: 130px; " alt="Website Logo"> 
+         <img src={{ page.header.logo_background | absolute_url }} class="img-responsive center-block" style="max-height: 130px; " alt="Website Logo"> 
       {% endif %}
       {% if page.excerpt %}
         <p class="page__lead" style="font-size: 94%;">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
