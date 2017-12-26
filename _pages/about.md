@@ -1,7 +1,10 @@
 ---
+layout: single
 permalink: /about/
 title: "About"
 excerpt: "Indie Game developer. Coffee to code converter bio-machine. Bug hunter."
+header:
+  logo_header: /assets/images/core/logo_full_inverse.png
 #layouts_gallery:
 #  - url: /assets/images/mm-layout-splash.png
 #    image_path: /assets/images/mm-layout-splash.png

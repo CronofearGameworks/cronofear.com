@@ -1,6 +1,7 @@
 ---
 layout: splash
 permalink: /
+title: "Home"
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/core/home.jpg
@@ -83,7 +84,7 @@ feature_row2:
 ***
 <!-- Listing Blog -->
 <a id="blog">
-# <i class="fa fa-coffee"></i> Blogs
+# <i class="fa fa-coffee"></i> Blog
 {: .text-center}
 <div class="grid__wrapper" style="height:auto; overflow:auto">
   {% for post in site.posts limit:4 %}
