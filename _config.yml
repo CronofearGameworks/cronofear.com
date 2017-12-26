@@ -18,7 +18,7 @@ title                    : "Cronofear Softworks"
 title_separator          : "-"
 name                     : &name "Kevin Yabar G." # &name is a YAML anchor which can be *referenced later
 description              : &description "Games and Tools development in Unreal Engine 4."
-url                      : https://cronofear.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://cronofeargameworks.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #the subpath of your site, e.g. "/blog" "/home"
 repository               : "CronofearSoftworks/website"
 #head_scripts             :
