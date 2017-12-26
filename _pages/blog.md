@@ -9,7 +9,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/core/home.jpg
   caption: ""
-description: 'Unreal Engine 4 - Game and Tools Development Blog'
+description: 'Unreal Engine 4 - Games and Tools Development Blog'
 descsize: '82%'
 descref: '#blog'
 #excerpt: 'Unreal Engine Game Development Blog'

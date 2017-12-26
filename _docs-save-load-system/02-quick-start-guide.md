@@ -1,6 +1,6 @@
 ---
 title: "Structure"
-permalink: /docs-save-load-system/structure/
+permalink: /docs-save-load-system/quick-start-guide/
 excerpt: "How the theme is organized and what all of the files are for."
 last_modified_at: 2016-10-06T22:39:43-04:00
 ---

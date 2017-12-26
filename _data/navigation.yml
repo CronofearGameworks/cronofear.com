@@ -109,7 +109,9 @@ sidebar-blog:
 docs-save-load-system:
   - title: Getting Started
     children:
-      - title: "Quick-Start - CSW Save and Load System"
+      - title: "Welcome - Save and Load System"
+        url: /docs-save-load-system/welcome/
+      - title: "Quick-Start"
         url: /docs-save-load-system/quick-start-guide/
       - title: "Structure"
         url: /docs-save-load-system/structure/

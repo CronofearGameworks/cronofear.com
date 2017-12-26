@@ -44,7 +44,7 @@
               <a href="{{ f_url }}" class="btn {{ f.btn_class }}" style="color:white;">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
             {% endif %}
             {% if f.url2 %}
-              <a href="{{ f_url2 }}" class="btn {{ f.btn_class2 }}" style="color:white;">{{ f.btn_label2 | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+              <a href="{{ f.url2 }}" class="btn {{ f.btn_class2 }}" style="color:white;">{{ f.btn_label2 | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
             {% endif %}
             </p>
         </div>
