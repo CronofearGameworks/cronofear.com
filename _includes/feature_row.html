@@ -1,0 +1,54 @@
+{% if include.id %}
+  {% assign feature_row = page[include.id] %}
+{% else %}
+  {% assign feature_row = page.feature_row %}
+{% endif %}
+
+<div class="feature__wrapper">
+
+  {% for f in feature_row %}
+
+    {% if f.url contains "://" %}
+      {% capture f_url %}{{ f.url }}{% endcapture %}
+    {% else %}
+      {% capture f_url %}{{ f.url | absolute_url }}{% endcapture %}
+    {% endif %}
+
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}" style="text-align: left;">
+      <div class="archive__item">
+        {% if f.image_path %}
+          <div class="archive__item-teaser" style="max-height:280px; max-width:500px; margin-bottom: 10px;">
+            <img src=
+              {% if f.image_path contains "://" %}
+                "{{ f.image_path }}"
+              {% else %}
+                "{{ f.image_path | absolute_url }}"
+              {% endif %}
+            alt="{% if f.alt %}{{ f.alt }}{% endif %}" style="max-height:280px; width:auto; padding:5px;">
+          </div>
+        {% endif %}
+
+        <div class="archive__item-body">
+          {% if f.title %}
+            <h3 class="archive__item-title">{{ f.title }}</h3>
+          {% endif %}
+
+          {% if f.excerpt %}
+            <div class="archive__item-excerpt" style="height:125px;">
+              <blockquote>{{ f.excerpt | markdownify }}</blockquote>
+            </div>
+          {% endif %}
+            
+            <p>
+            {% if f.url %}
+              <a href="{{ f_url }}" class="btn {{ f.btn_class }}" style="color:white;">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            {% endif %}
+            {% if f.url2 %}
+              <a href="{{ f_url2 }}" class="btn {{ f.btn_class2 }}" style="color:white;">{{ f.btn_label2 | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            {% endif %}
+            </p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

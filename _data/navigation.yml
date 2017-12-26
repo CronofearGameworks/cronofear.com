@@ -1,0 +1,140 @@
+# example navigation
+foo:
+  - title: "Parent Link 1"
+    url: /parent-1-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+  - title: "Parent Link 2"
+    url: /parent-2-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+      - title: "Child Link 3"
+        url: /child-3-page-url/
+
+
+# main links
+main:
+  - title: "Home"
+    url: /
+  #- title: "UE4 Assets"
+    #url: /#gameassets
+  #- title: "Games"
+    #url: /#games
+  - title: "Blog"
+    url: /blog/
+  - title: "About"
+    url: /about/
+  #- title: Docs
+    #url: /docs/
+
+
+# sidebar navigation list sample
+sidebar-sample:
+  - title: "Categories"
+    children:
+      - title: "Child Page A1"
+        url: /
+      - title: "Child Page A2"
+        url: /
+      - title: "Child Page A3"
+        url: /
+      - title: "Child Page A4"
+        url: /
+  - title: "Parent Page B"
+    children:
+      - title: "Child Page B1"
+        url: /
+      - title: "Child Page B2"
+        url: /
+      - title: "Child Page B3"
+        url: /
+      - title: "Child Page B4"
+        url: /
+      - title: "Child Page B5"
+        url: /
+  - title: "Parent Page C"
+    children:
+      - title: "Child Page C1"
+        url: /
+      - title: "Child Page C2"
+        url: /
+      - title: "Child Page C3"
+        url: /
+      - title: "Child Page C4"
+        url: /
+      - title: "Child Page C5"
+        url: /
+  - title: "Parent Page D"
+    children:
+      - title: "Child Page D1"
+        url: /
+      - title: "Child Page D2"
+        url: /
+
+
+sidebar-blog:
+  - title: "News"
+    children:
+      - title: "Latest"
+        url: /#latest
+      - title: "Featured"
+        url: /#featured
+  - title: "Categories"
+    children:
+      - title: "UE4 Tutorials"
+        url: /#ue4tutorial
+      - title: "C++ Tutorials"
+        url: /#cpptutorial
+      - title: "Other Tutorials"
+        url: /#othertutorial
+      - title: "Releases"
+        url: /#release
+      - title: "Showcases"
+        url: /#showcase
+      - title: "Misc"
+        url: /#misc
+  - title: "Tags"
+    children:
+      - title: "Tag1"
+        url: /tag1
+
+
+# Documentation Save and Load System
+docs-save-load-system:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start - CSW Save and Load System"
+        url: /docs-save-load-system/quick-start-guide/
+      - title: "Structure"
+        url: /docs-save-load-system/structure/
+      - title: "Installation"
+        url: /docs-save-load-system/installation/
+      - title: "Upgrading"
+        url: /docs-save-load-system/upgrading/
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: /docs-save-load-system/configuration/
+
+# Documentation Level Makr Kit
+docs-level-makr-kit:
+  - title: Getting Starteds
+    children:
+      - title: "Quick-Start - CSW Level Makr Kit"
+        url: /docs-level-makr-kit/quick-start-guide/
+      - title: "Structure"
+        url: /docs-level-makr-kit/structure/
+      - title: "Installation"
+        url: /docs-level-makr-kit/installation/
+      - title: "Upgrading"
+        url: /docs-level-makr-kit/upgrading/
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: /docs-level-makr-kit/configuration/
