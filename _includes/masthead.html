@@ -3,7 +3,7 @@
     <div class="masthead__menu" style="margin-top:-25px;">
       <nav id="site-nav" class="greedy-nav" style="max-height: 50px;">
         <a class="site-title" href="{{ '/' | absolute_url }}">
-        <div class="panel-body"><img src="{{ page.header.logo_header }}" class="img-responsive center-block rounded" style="max-height: 50px; " alt="Website Logo"></div>
+        <div class="panel-body"><img src="{{ page.header.logo_header | absolute_url }}" class="img-responsive center-block rounded" style="max-height: 50px; " alt="Website Logo"></div>
         </a>
         <ul class="visible-links" style="margin-top: 25px;">
           {% for link in site.data.navigation.main %}
