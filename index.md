@@ -81,7 +81,6 @@ feature_row2:
 ***
 {% endcomment %}
 ***
-***
 <!-- Listing Blog -->
 <a id="blog">
 # <i class="fa fa-coffee"></i> Blog

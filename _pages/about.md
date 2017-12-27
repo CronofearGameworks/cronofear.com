@@ -47,6 +47,6 @@ toc: true
 - Waiting for an opportunity to play Xenoblade Chronicles 2.
 - Developing the [Level Makr Kit Plugin](https://cronofear.com/) for both the UE4 Marketplace and my thesis.
 - Drinking coffee.
-- Making a tutorial about uploading files to the cloud using Gamesparks.
+- Updating my website.
 
 ---

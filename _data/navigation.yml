@@ -85,24 +85,24 @@ sidebar-blog:
         url: /#latest
       - title: "Featured"
         url: /#featured
-  - title: "Categories"
-    children:
-      - title: "UE4 Tutorials"
-        url: /#ue4tutorial
-      - title: "C++ Tutorials"
-        url: /#cpptutorial
-      - title: "Other Tutorials"
-        url: /#othertutorial
-      - title: "Releases"
-        url: /#release
-      - title: "Showcases"
-        url: /#showcase
-      - title: "Misc"
-        url: /#misc
-  - title: "Tags"
-    children:
-      - title: "Tag1"
-        url: /tag1
+#  - title: "Categories"
+#    children:
+#      - title: "UE4 Tutorials"
+#        url: /#ue4tutorial
+#      - title: "C++ Tutorials"
+#        url: /#cpptutorial
+#      - title: "Other Tutorials"
+#        url: /#othertutorial
+#      - title: "Releases"
+#        url: /#release
+#      - title: "Showcases"
+#        url: /#showcase
+#      - title: "Misc"
+#        url: /#misc
+#  - title: "Tags"
+#    children:
+#      - title: "Tag1"
+#        url: /tag1
 
 
 # Documentation Save and Load System
@@ -145,8 +145,8 @@ docs-save-load-system:
         url: /docs-save-load-system/save-object-main/
   - title: Misc
     children:
-      - title: "Credits"
-        url: /docs-save-load-system/credits/
+      - title: "FAQ"
+        url: /docs-save-load-system/faq/
 
 # Documentation Level Makr Kit
 docs-level-makr-kit:

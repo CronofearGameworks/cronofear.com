@@ -48,7 +48,7 @@ This is done by storing those variables inside an ```Actor``` and using them to 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xPxkfIuQV7E?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
-In this video, new variables are creating for solving issues while saving and loading certain ```Actors``` such as the door (```Saved```NamedVariables).
+In this video, new aux variables are created for solving issues while saving and loading certain ```Actors``` such as the door (```Saved```NamedVariables).
 This is not neccesary now as the bug was solved for all versions of the plugin.
 {: .notice--warning}
 
