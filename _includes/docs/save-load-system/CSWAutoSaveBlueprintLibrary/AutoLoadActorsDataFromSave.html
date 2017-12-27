@@ -1,0 +1,58 @@
+    <div id="content_container">
+      <p>Auto Load the Game and updates the data for all the actors (and components) that were saved.<br />If an actor was saved and don't exist in the world anymore, the actors will be recreated (if the option is enabled in the CSWAutoSaveComponent).<br />This method loads the data for all the maps that are currently loaded (it supports level streaming).<br />Use LoadGameFromSlot() to obtain an AutoSaveObject from file (and use the AutoSaveObject as an input of this function).</p>
+      <img style="padding-left: 25%" src="/assets/docs/save-load-system/CSWAutoSaveBlueprintLibrary/nd_img_AutoLoadActorsDataFromSave.png" />
+      <p class="title_style">Inputs</p>
+      <table>
+        <colgroup>
+          <col width="40%" />
+          <col width="60%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">In</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Auto Save Game Object</div>
+              <div class="param_type">CSWAuto Save And Load Game Object Object Reference</div>
+            </td>
+            <td>
+              <p>The UCSWAutoSaveObject reference, needs to carry data from saved Actors.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="title_style">Outputs</p>
+      <table>
+        <colgroup>
+          <col width="40%" />
+          <col width="60%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Out</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Return Value</div>
+              <div class="param_type">Boolean</div>
+            </td>
+            <td>
+              <p>Whether if the Load was successful or Not.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>

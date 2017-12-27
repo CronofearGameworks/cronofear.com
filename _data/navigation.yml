@@ -109,20 +109,44 @@ sidebar-blog:
 docs-save-load-system:
   - title: Getting Started
     children:
-      - title: "Welcome - Save and Load System"
+      - title: "Save and Load System"
         url: /docs-save-load-system/welcome/
       - title: "Quick-Start"
         url: /docs-save-load-system/quick-start-guide/
-      - title: "Structure"
-        url: /docs-save-load-system/structure/
-      - title: "Installation"
-        url: /docs-save-load-system/installation/
-      - title: "Upgrading"
-        url: /docs-save-load-system/upgrading/
-  - title: Customization
+      - title: "Other Examples"
+        url: /docs-save-load-system/examples/
+      - title: "Project Example"
+        url: /docs-save-load-system/project-example/
+  - title: The Blueprint Library
     children:
-      - title: "Configuration"
-        url: /docs-save-load-system/configuration/
+      - title: "Main Functions"
+        url: /docs-save-load-system/save-blueprint-library-main/
+      - title: "Main Functions (Async)"
+        url: /docs-save-load-system/save-blueprint-library-main-async/
+      - title: "For Customization"
+        url: /docs-save-load-system/save-blueprint-library-custom/
+      - title: "Compression Utilities"
+        url: /docs-save-load-system/save-blueprint-library-comp/
+      - title: "Compression Utilities (Async)"
+        url: /docs-save-load-system/save-blueprint-library-comp-async/
+      - title: "General Utilities"
+        url: /docs-save-load-system/save-blueprint-library-utils/
+  - title: The Autosave Component
+    children:
+      - title: "Delegate Events"
+        url: /docs-save-load-system/save-component-events/
+      - title: "Custom Properties"
+        url: /docs-save-load-system/save-component-properties/
+      - title: "Get & Set Functions"
+        url: /docs-save-load-system/save-component-getset/
+  - title: The Autosave Object
+    children:
+      - title: "Main Functions"
+        url: /docs-save-load-system/save-object-main/
+  - title: Misc
+    children:
+      - title: "Credits"
+        url: /docs-save-load-system/credits/
 
 # Documentation Level Makr Kit
 docs-level-makr-kit:

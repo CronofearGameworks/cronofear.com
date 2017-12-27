@@ -1,0 +1,130 @@
+    <div id="content_container">
+      <p>Given a Source String, obtain a Substring between FirstString and EndString<br />Example, in: "This is a -hello world/ string example" - If FirstString is "-" and EndString is "/" the result will be "hello world".</p>
+      <img style="padding-left: 25%" src="/assets/docs/save-load-system/CSWAutoSaveBlueprintLibrary/nd_img_GetSubstringBetween.png" />
+      <p class="title_style">Inputs</p>
+      <table>
+        <colgroup>
+          <col width="40%" />
+          <col width="60%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Search In</div>
+              <div class="param_type">String</div>
+            </td>
+            <td>
+              <p>SourceString where the search will be performed.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">First String</div>
+              <div class="param_type">String</div>
+            </td>
+            <td>
+              <p>The first string to find (Using FindSubstring()).</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">End String</div>
+              <div class="param_type">String</div>
+            </td>
+            <td>
+              <p>The end string to find (Using FindSubstring()).</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">First Use Case</div>
+              <div class="param_type">Boolean</div>
+            </td>
+            <td>
+              <p>The search of the FirstString will be case sensitive?</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">End Use Case</div>
+              <div class="param_type">Boolean</div>
+            </td>
+            <td>
+              <p>The search of the EndString will be case sensitive?</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">First Search from End</div>
+              <div class="param_type">Boolean</div>
+            </td>
+            <td>
+              <p>The search of the FirstString will be performed starting from the end of the SourceString?</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">End Search from End</div>
+              <div class="param_type">Boolean</div>
+            </td>
+            <td>
+              <p>The search of the EndString will be performed starting from the end of the SourceString?</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">First Start Pos</div>
+              <div class="param_type">Integer</div>
+            </td>
+            <td>
+              <p>The position to start the search from FirstString.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">End Start Pos</div>
+              <div class="param_type">Integer</div>
+            </td>
+            <td>
+              <p>The position to start the search from EndString.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Include First String</div>
+              <div class="param_type">Boolean</div>
+            </td>
+            <td>
+              <p>Include the FirstString in the SubstringResult?</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Include End String</div>
+              <div class="param_type">Boolean</div>
+            </td>
+            <td>
+              <p>Include the EndString in the SubstringResult?</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="title_style">Outputs</p>
+      <table>
+        <colgroup>
+          <col width="40%" />
+          <col width="60%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Substring Result</div>
+              <div class="param_type">String</div>
+            </td>
+            <td>
+              <p>Substring Result between the FirstString and the EndString.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>

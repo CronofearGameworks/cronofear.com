@@ -1,55 +1,52 @@
 ---
-title: "Structure"
+title: "Quickstart Guide"
+header:
+  logo_header: /assets/images/core/logo_full_inverse.png
 permalink: /docs-save-load-system/quick-start-guide/
-excerpt: "How the theme is organized and what all of the files are for."
-last_modified_at: 2016-10-06T22:39:43-04:00
+excerpt: "Quickstart Guide."
+last_modified_at: 2017-12-26T22:39:43-04:00
+toc: true
 ---
 
-Nothing clever here :wink:. Layouts, data files, and includes are all placed in their default locations. Stylesheets and scripts in `assets`, and a few development related files in the project's root directory.
+## Enabling the Plugin.
 
-**Please note:** If you installed Minimal Mistakes via the Ruby Gem method, theme files like `_layouts`, `_includes`, `_sass`, and `/assets/` will be missing. This is normal as they are bundled with the [`minimal-mistakes-jekyll`](https://rubygems.org/gems/minimal-mistakes-jekyll) Ruby gem.
+Here, i show you how to enable the Plugin in your project. Once enabled you can use the functionality this plugin provides.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IMySm5q617o?rel=0&amp;showinfo=0&amp;start=01&amp;end=44" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+This tutorial is using the ThirdPerson Template.
 {: .notice--info}
 
-```bash
-minimal-mistakes
-├── _data                      # data files for customizing the theme
-|  ├── navigation.yml          # main navigation links
-|  └── ui-text.yml             # text used throughout the theme's UI
-├── _includes
-|  ├── analytics-providers     # snippets for analytics (Google and custom)
-|  ├── comments-providers      # snippets for comments (Disqus, Facebook, Google+, and custom)
-|  ├── footer                  # custom snippets to add to site footer
-|  ├── head                    # custom snippets to add to site head
-|  ├── base_path               # site.url + site.baseurl shortcut
-|  ├── feature_row             # feature row helper
-|  ├── gallery                 # image gallery helper
-|  ├── group-by-array          # group by array helper for archives
-|  ├── nav_list                # navigation list helper
-|  ├── toc                     # table of contents helper
-|  └── ...
-├── _layouts
-|  ├── archive-taxonomy.html   # tag/category archive for Jekyll Archives plugin
-|  ├── archive.html            # archive listing documents in an array
-|  ├── compress.html           # compresses HTML in pure Liquid
-|  ├── default.html            # base for all other layouts
-|  ├── home.html               # home page
-|  ├── search.html             # search page
-|  ├── single.html             # single document (post/page/etc)
-|  └── splash.html             # splash page
-├── _sass                      # SCSS partials
-├── assets
-|  ├── css
-|  |  └── main.scss            # main stylesheet, loads SCSS partials from _sass
-|  ├── fonts
-|  |  └── fontawesome-webfont  # Font Awesome webfonts
-|  ├── images                  # image assets for posts/pages/collections/etc.
-|  ├── js
-|  |  ├── plugins              # jQuery plugins
-|  |  ├── vendor               # vendor scripts
-|  |  ├── _main.js             # plugin settings and other scripts to load after jQuery
-|  |  └── main.min.js          # optimized and concatenated script file loaded before </body>
-├── _config.yml                # site configuration
-├── Gemfile                    # gem file dependencies
-├── index.html                 # paginated home page showing recent posts
-└── package.json               # NPM build scripts
-```
+## Creating the global Save & Load Functions
+
+You need to call the global Save and Load functions from somewhere. In this example i show you how you can do that from a ```Player Controller```. You can actually place these functions in any ```Actor``` you want depending on your project needs :smile:.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IMySm5q617o?rel=0&amp;showinfo=0&amp;start=49&amp;end=392" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+In newer version "CGD" prefixes has been changed to "CSW".
+{: .notice--info}
+
+## Saving and Loading an Actor
+
+Here, i show you a simple example about creating an ```Actor```, adding the ```CSWAutoSaveComponent``` and Saving it and loading it from Disk/Memory by using the global Save & Load Functions we created before.
+Very easy and straigthforward!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IMySm5q617o?rel=0&amp;showinfo=0&amp;start=393" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+The delay() node added in the minute **9:00** is only waiting one frame and it's neccesary if you want to load your game exactly on BeginPlay().
+{: .notice--info}
+
+## Customizing the Save and Load Functionality
+
+Here i show you how to customize the functionality of the Save & Load system. You can save custom variables just by checking a property.
+
+As an example, in the video, we're going to save and load a ```CharacterMovementComponent``` state (```isFalling``` and ```velocity```).
+
+Also, i'll show you an alternative method to save variables (using ```GetSavedVariables()``` and ```SetSavedVariables()```).
+
+Finally, the video also shows you how to save Actor Components *"on demand"*. An ```Actor``` can be customized to save only the components you want to save!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IMySm5q617o?rel=0&amp;showinfo=0&amp;start=393&amp" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+* In newer version you can also use the new ```CSWSequenceFromInputArray()``` in the minute **11:20**.
+{: .notice--info}

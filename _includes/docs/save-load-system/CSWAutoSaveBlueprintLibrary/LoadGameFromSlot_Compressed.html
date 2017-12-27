@@ -1,0 +1,76 @@
+    <div id="content_container">
+      <p>Load a game from a compressed save File. It doesn't work if you try to load a game from an UNcompressed file.</p>
+      <img style="padding-left: 25%" src="/assets/docs/save-load-system/CSWAutoSaveBlueprintLibrary/nd_img_LoadGameFromSlot_Compressed.png" />
+      <p class="title_style">Inputs</p>
+      <table>
+        <colgroup>
+          <col width="40%" />
+          <col width="60%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">In</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Save Game Object</div>
+              <div class="param_type">Save Game Object Reference</div>
+            </td>
+            <td>
+              <p>SaveGameObject of the same type of the one that was saved (Caution: the game will crash if it's not of the same type).</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Slot Name</div>
+              <div class="param_type">String</div>
+            </td>
+            <td>
+              <p>Name of the save game slot to load from.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">User Index</div>
+              <div class="param_type">Integer</div>
+            </td>
+            <td>
+              <p>For some platforms, master user index to identify the user doing the loading.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="title_style">Outputs</p>
+      <table>
+        <colgroup>
+          <col width="40%" />
+          <col width="60%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Out</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Return Value</div>
+              <div class="param_type">Save Game Object Reference</div>
+            </td>
+            <td>
+              <p>A Save Game Object reference with the loaded data.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>

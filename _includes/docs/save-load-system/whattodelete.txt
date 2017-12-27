@@ -1,0 +1,38 @@
+# REMOVE LINES
+
+	https://i.stack.imgur.com/P3i0T.png
+	
+    Ctrl + h to bring up the find replace dialog.
+
+    In the Find what: text box include your regex: .*help.*\r?\n (where the \r is optional in case the file doesn't have Windows line endings).
+
+    Leave the Replace with: text box empty.
+
+    Make sure the Regular expression radio button in the Search Mode area is selected. Then click Replace All and voila! All lines containing your search term help have been removed.
+
+
+## WHAT TO REMOVE (USING REPLACE)
+
+"MATCH CASE", "WRAP AROUND" AND "REGULAR EXPRESSION"
+
+.*(html|<head|</head|<title>|<link|<body|</body|<a|<h1).*\r?\n
+.*(html).*\r?
+
+# REPLACE
+
+## WHAT TO REPLACE
+
+<img src="../img			TO
+<img style="padding-left: 25%" src="/assets/docs/save-load-system/CSWAutoSaveBlueprintLibrary CSWAutoSaveComponent CSWAutoSaveObject
+
+="25% 						TO
+="40%
+
+="75%						TO
+="60%
+
+<h3							TO
+<p
+
+</h3						TO
+</p
