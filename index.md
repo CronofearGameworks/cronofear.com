@@ -83,7 +83,7 @@ feature_row2:
 ***
 <!-- Listing Blog -->
 <a id="blog">
-# <i class="fa fa-coffee"></i> Latest in the Blog
+# <i class="fa fa-coffee"></i> Blog
 {: .text-center}
 <div class="grid__wrapper" style="height:auto; overflow:auto">
   {% for post in site.posts limit:4 %}
