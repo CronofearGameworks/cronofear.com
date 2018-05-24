@@ -18,11 +18,14 @@ intro:
   - excerpt: '<a style="font-size: 75%;">Follow me on:</a>
   [<i class="fa fa-facebook"></i>](https://www.facebook.com/Cronofear/){: .btn .btn--light-outline .btn--small}
   [<i class="fa fa-twitter"></i>](https://twitter.com/cronofearSW){: .btn .btn--light-outline .btn--small}
-  [<i class="fa fa-youtube-play"></i>](https://www.youtube.com/channel/UCTE-TAOV8uGyX5ITofi93Ew){: .btn .btn--light-outline .btn--small}'
+  [<i class="fa fa-youtube-play"></i>](https://www.youtube.com/channel/UCTE-TAOV8uGyX5ITofi93Ew){: .btn .btn--light-outline .btn--small}
+  [<i class="fa fa-tumblr"></i>](https://cronofearsoftworks.tumblr.com/){: .btn .btn--light-outline .btn--small} 
+  [<i class="fa fa-paypal"></i>](https://www.paypal.me/cronofear){: .btn .btn--light-outline .btn--small}'
 share:
   - excerpt: '<a style="font-size: 75%;">Share on:</a>
   [<i class="fa fa-facebook"></i>](https://www.facebook.com/Cronofear/){: .btn .btn--light-outline .btn--small}
-  [<i class="fa fa-twitter"></i>](https://twitter.com/cronofearSW){: .btn .btn--light-outline .btn--small}'
+  [<i class="fa fa-twitter"></i>](https://twitter.com/cronofearSW){: .btn .btn--light-outline .btn--small}
+ [<i></i>Subscribe](#subscribe){: .btn .btn--light-outline .btn--small}'
 feature_row:
   - image_path: /assets/images/game_assets/save_system/logo.png                           #FEATURED IMAGE 1 500x280
     alt: "Buy Plug-in"
